@@ -1,0 +1,145 @@
+/*button fonts*/
+@font-face{
+    font-family: 'luam';
+    src: url('pics/Luam-Regular.ttf') format('ttf');
+    src: url('pics/Luam-Regular.WOFF') format('WOFF');
+}
+
+
+/*Mobile navbar*/
+#smallNavBar{
+	background: rgb(0, 0, 0, 0.1);
+}
+
+#brandName{
+	font-weight: 600;
+	font-size: 35px;
+}
+
+.nav-link{
+	font-size: 25px;
+}
+
+#mobileLogo{
+	width: 35px;
+}
+
+.top{
+	margin-top: 70px;
+}
+
+#logo{
+	/*position: fixed;*/
+}
+
+#logCon{
+	position: absolute;
+}
+
+.raise{
+	/*padding-top: -50px;*/
+}
+
+/*Full size menu*/
+#btnGroup{
+	padding-top: 50px;
+	position: fixed;
+
+}
+
+.btn-default{
+	font-size: 30px;
+	font-family:  monospace;
+	background: rgb(0, 0, 0, 0.1);
+
+}
+
+.btn-default:hover{
+	background: rgb(0, 0, 0, 0.4);
+}
+/*Home Page*/
+#homePage{
+	
+}
+
+
+#price{
+	padding-top: 70px;
+}
+
+.head{
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-size: 60px;
+	font-family: serif;
+}
+
+.text{
+	font-size: 35px;
+	font-family: serif;
+	font-weight: 300;
+}
+
+#make{
+	padding-bottom: 20px;
+}
+
+#contactBtn{
+	border: 6px solid green;
+	color: green;
+	font-weight: 900;
+	font-size: 25px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-bottom: 50px;
+	background: white;
+}
+
+#contactBtn:hover{
+    background: rgb(0, 250, 0, 0.4);
+}
+
+
+/*Portfolio page*/
+#portfolioPage{
+	display: none;
+}
+#portIntro{
+	padding-top: 70px;
+}
+
+/*Contact*/
+#contactPage{
+	padding-top: 70px;
+	display: none;
+}
+
+#contactH{
+	padding-bottom: 30px;
+}
+
+.lab{
+	padding-top: 15px;
+	font-size: 25px;
+}
+
+/*About page*/
+#aboutPage{
+	padding-top: 70px;
+	display: none;
+}
+
+#aboutpar{
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bold;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}

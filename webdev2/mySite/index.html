@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nate's Web Forge</title>
+
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+	<!-- Small Screen nav bar -->
+<nav class="navbar bg-light navbar-light navbar-expand-md py-0 fixed-top d-md-none " id="smallNavBar">
+		<!-- logo -->
+		<a href="#" class="navbar-left"><img class="img-fluid" id="mobileLogo" src="pics/logo.png"></a>
+		<a class="navbar-brand" id="brandName" href="#">Nate's Web Forge</a>
+		<!-- burgerMenu -->
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation" id="menu">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<!-- navbar links -->
+		<div class="collapse navbar-collapse" id="navLinks">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="nav-link" id="homeBtn">Home</a>
+				</li>
+
+				<li class="nav-item" >
+					<a href="#" class="nav-link"id="portfolioBtn">Portfolio</a>
+				</li>
+
+				<li class="nav-item">
+					<a href="#" class="nav-link" id="contactButton">Contact</a>
+				</li>
+
+				<li class="nav-item">
+					<a href="#" class="nav-link" id="aboutBtn">About</a>
+				</li>
+
+			</ul>
+		</div>
+	</nav>
+ 
+	<!-- logo placement -->
+	<section class="container-fluid">
+		<div class="row justify-content-end px-0">
+			
+			<div class="col-2 top d-none d-md-block" id="logCon">
+				<img class="img-fluid" id="logo" src="pics/logo.png">
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Button bar -->
+	<div class="container-fluid">
+		<div class="row align-middle">
+			<div class="col-md-3 d-none d-md-block">
+				<div class="btn-group-vertical " id="btnGroup">
+					<button id="home" type="button" class="btn btn-default btn-lg" href="#home">Home</button>
+					<button id="portfolio" type="button" class="btn btn-default btn-lg" href="#portfolio">Portfolio</button>
+					<button id="contact" type="button" class="btn btn-default btn-lg" href="#contact">Contact</button>
+					<button id="about" type="button" class="btn btn-default btn-lg" href="#about">About</button>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+	<!-- HomePage -->
+	<section class="container-fluid raise" id="homePage">
+
+		<div class="row  d-flex flex-column">
+
+			<!-- price -->
+			<div id="price" class="text-center mx-auto col-6">
+				<h1 class="head">Price</h1>
+				<p class="text">Get in touch for a free no-obligation quote.</p>
+			</div>
+
+			<!-- plan -->
+			<div id="plan" class="text-center mx-auto col-6">
+				<h1 class="head">Plan</h1>
+				<p class="text">We will help plan a website that best suits your needs. We will agree to a deadline and stick to it.</p>
+			</div> 
+
+			<!-- Make -->
+			<div id="make" class="text-center mx-auto col-6">
+				<h1 class="head">Make</h1>
+				<p class="text">We will deliver your website on time and with the best quality.</p>
+			</div> 
+
+			<div class="text-center mx-auto col-6">
+				<input id="contactBtn" class="btn btn-primary" type="submit" value="Get in touch">
+			</div> 
+
+		</div>
+	</section>
+
+	<!-- Portfolio page -->
+	<section class="container-fluid" id="portfolioPage">
+		<div class="row">
+			<div class="text-center col-6 mx-auto" id="portIntro">
+				<h1 class="head">Portflio</h1>
+				<h2 class="text">The following is a carefully selected group of my most beautiful websites:</h2>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Contact page -->
+	<section class="container-fluid" id="contactPage">
+		<div class="row d-flex flex-column">
+			<!-- Header -->
+			<div class="text-center">
+				<h1 class="head" id="contactH">Contact Us:</h1>
+			</div>
+
+			<div class="form-group col-6 mx-auto" id="first">
+				<label class="lab" for="firstname">First Name:</label><br>
+				<input class="form-control" id="firstname" type="text" placeholder="First Name">
+			</div>
+
+			<div class="form-group col-6 mx-auto" id="first">
+				<label class="lab" for="lastname">Last Name:</label><br>
+				<input class="form-control" id="lastname" type="text" placeholder="Last Name">
+			</div>
+
+			<div class="form-group col-6 mx-auto" id="first">
+				<label class="lab" for="phone">Phone Number:</label><br>
+				<input class="form-control" id="phone" type="Number" placeholder="Phone Number">
+			</div>
+
+			<div class="form-group col-6 mx-auto" id="mess">
+                    <label class="lab" for="message">Message:</label>
+                    <textarea class="form-control" id="message"></textarea>
+             </div>
+
+             <div class="text-center mx-auto col-6">
+				<input id="contactBtn" class="btn btn-primary" type="submit" value="Submit">
+			</div> 
+
+		</div>
+	</section>
+
+
+	<!-- About -->
+	<section class="container-fluid" id="aboutPage">
+		<div class="row d-flex flex-column">
+			
+			<div class="text-center">
+				<h1 class="head">About Us</h1>
+			</div>
+
+			<div class="text-center col-8 mx-auto">
+				<p id="aboutpar">
+					Nate Kinne is the Nate behind Nate's Web Forge. He has been working on his web development since October 2017. His skills include:<i> HTML, CSS, Javascript, JQuery, Bootsrap and PHP.  </i> He also has knowledge of: <i> Python, Java, and c/c++.</i> With a deep love of web and software development he is eager to create more beautiful and high functioning sites.
+				</p>
+			</div>
+
+
+		</div>
+	</section>
+
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script type="text/javascript" src="code.js"></script>
+
+</body>
+</html>
