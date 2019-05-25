@@ -82,3 +82,9 @@ $("#contactBtn").click(function (){
     $("#portfolioPage").hide();
     $("#contactPage").show();
 });
+
+
+/*Checking width*/
+/*var width = $(document).width();
+
+$("#width").text(width);*/

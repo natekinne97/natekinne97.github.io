@@ -13,15 +13,16 @@
 
 #brandName{
 	font-weight: 600;
-	font-size: 35px;
+	font-size: 55px;
+	padding-left: 10px;
 }
 
 .nav-link{
-	font-size: 25px;
+	font-size: 35px;
 }
 
 #mobileLogo{
-	width: 35px;
+	width: 40px;
 }
 
 .top{
@@ -33,6 +34,7 @@
 }
 
 #logCon{
+	padding-top: 25px;
 	position: absolute;
 }
 
@@ -44,7 +46,10 @@
 #btnGroup{
 	padding-top: 50px;
 	position: fixed;
+}
 
+#btnBar{
+	display: none;
 }
 
 .btn-default{
@@ -142,4 +147,32 @@
     -moz-border-radius: 10px;
     -o-border-radius: 10px;
 
+}
+
+
+#colorPic{
+	/*width: 33%;*/
+	border-radius: 10px;
+	-o-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+/*passing*/
+.port{
+	padding: 20px 0;
+}
+
+/*Portfolio names*/
+.portName{
+	font-family: Arial, serif;
+	font-weight: 300;
+}
+
+
+/*site description*/
+.description{
+	margin: auto;
+	font-size: 35px;
+	/*width: 30%;*/
 }
